@@ -1,0 +1,9 @@
+version: '3'
+services:
+  redis-server:
+    image: redis
+  tomcat-app:
+    build: .
+    restart: always
+    ports:
+      - "8080:8080"

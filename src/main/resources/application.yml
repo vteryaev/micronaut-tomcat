@@ -1,0 +1,5 @@
+micronaut:
+  application:
+    name: micronautTomcat
+redis:
+  uri: redis://redis-server:6379
